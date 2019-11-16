@@ -1,0 +1,56 @@
+            div 
+            {
+                box-sizing: border-box;
+			    border: 1px solid #ccc; /* 모든 영역에 테두리 표시 */
+		    }
+            
+            
+            body
+            {
+                /*background: rgb(65, 65, 65);*/
+            }
+            
+            #frame
+            {
+                padding:10px;
+                margin: 0 auto;
+                width:1000px;
+                height:800px;
+                background-clip: border-box;
+            }
+            
+            #header
+            {
+                background: rgb(204, 204, 255);
+                background-clip: border-box;
+                text-align: center;
+                padding:10px;
+                margin-bottom: 20px;
+            }
+            
+            #ranking_table
+            {
+                background: rgb(102, 190, 5);
+			    width: 600px;
+                height:400px;
+			    padding: 20px;  
+			    float: left;  
+			    margin-bottom: 20px;  
+            }
+            #information_table
+            {
+                background: rgb(1024, 145, 12);
+			    width: 350px;
+                height:400px;
+			    padding: 20px;  
+			    float: right;  
+			    margin-bottom: 20px;  
+            }
+            .small_text
+            {
+                font-size: 12px;
+            }
+            fieldset
+            {
+                text-align: center;
+            }
