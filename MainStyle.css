@@ -1,56 +1,143 @@
-            div 
-            {
-                box-sizing: border-box;
-			    border: 2px solid black; /* 모든 영역에 테두리 표시 */
-		    }
+div 
+{
+    border: 2px solid black; /* 모든 영역에 테두리 표시 */
+}
             
             
-            body
-            {
-                /*background: rgb(65, 65, 65);*/
-            }
+body
+{
+    /*background: rgb(65, 65, 65);*/
+}
+
+fieldset
+{
+    text-align: center;
+        }
+
+a:link 
+{
+    text-decoration: none;
+
+}
+a:visited
+{
+    text-decoration: none;
+
+}
+a:hover
+{
+    text-decoration: none;
+
+}
             
-            #frame
-            {
-                padding:10px;
-                margin: 0 auto;
-                width:1000px;
-                height:800px;
-                background-clip: border-box;
-            }
+#frame
+{
+    box-sizing: border-box;
+    padding:10px;
+    margin: 0 auto;
+    width:1000px;
+    height:720px;
+    background-clip: border-box;
+}
             
-            #header
-            {
-                background: rgb(204, 204, 255);
-                background-clip: border-box;
-                text-align: center;
-                padding:10px;
-                margin-bottom: 20px;
-            }
+#header
+{
+    box-sizing: border-box;
+    background: rgb(204, 204, 255) border-box;
+    text-align: center;
+    width: 960px;
+    height:160px;
+    padding:10px;
+    margin: 10px;
+}
+
+#rule_box
+{
+    box-sizing: border-box;
+    background: rgb(240, 54, 205) border-box;
+    text-align: left;
+    width: 960px;
+    height:400px;
+    padding:10px;
+    margin: 10px;
+}
+
+#menu
+{
+    box-sizing: border-box;
+    background: rgb(24, 204, 255) border-box;
+    text-align: center;
+    width: 960px;
+    height:90px;
+    padding:10px;
+    margin: 10px;
+}
+
+#menu_box_1
+{
+    box-sizing: border-box;
+    background: rgb(204, 204, 25) border-box;
+    clear:both;
+    float:left;
+    width: 200px;
+    height:65px;
+    padding:10px;
+    text-align: center;
+}
+
+#menu_box_2
+{
+    box-sizing: border-box;
+    background: rgb(204, 204, 25) border-box;
+    float:left;
+    width: 220px;
+    height:65px;
+    padding:10px;
+    text-align: center;
+}
+
+#menu_box_3
+{
+    box-sizing: border-box;
+    background: rgb(204, 204, 25) border-box;
+    float:left;
+    width: 220px;
+    height:65px;
+    padding:10px;
+    text-align: center;
+}
             
-            #ranking_table
-            {
-                background: rgb(102, 190, 5);
-			    width: 600px;
-                height:400px;
-			    padding: 20px;  
-			    float: left;  
-			    margin-bottom: 20px;  
-            }
-            #information_table
-            {
-                background: rgb(1024, 145, 12);
-			    width: 350px;
-                height:400px;
-			    padding: 20px;  
-			    float: right;  
-			    margin-bottom: 20px;  
-            }
-            .small_text
-            {
-                font-size: 12px;
-            }
-            fieldset
-            {
-                text-align: center;
-            }
+#ranking_table
+{
+    box-sizing: border-box;
+    background: rgb(102, 190, 5);
+    width: 560px;
+    height:400px;
+    padding: 20px; 
+    clear:both;
+    float: left;  
+    margin: 10px;  
+}
+
+#information_table
+{
+    box-sizing: border-box;
+    background: rgb(1024, 145, 12);
+    width: 350px;
+    height:400px;
+    padding: 20epx;  
+    float: right;  
+    margin: 10px;  
+}
+
+
+
+.small_text
+{
+    font-size: 12px;
+}
+
+#login_window 
+{
+    text-align: left;
+}
