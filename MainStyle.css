@@ -6,7 +6,9 @@ div
             
 body
 {
-    background: rgb(65, 65, 65);
+    background: url('image/BackGround_4.png');
+    background-position: center center;
+    background-size: 1920px 1080px;
 }
 
 fieldset
@@ -36,8 +38,11 @@ a:hover
     padding:10px;
     margin: 0 auto;
     width:1000px;
-    height:720px;
+    height:820px;
     background-clip: border-box;
+    background: rgb(0,0,0,0.4);
+    /*background: url(image/BackGround-1.png) no-repeat;
+    background-position: center center;*/
 }
             
 #header
@@ -64,7 +69,7 @@ a:hover
 #menu
 {
     box-sizing: border-box;
-    background: rgb(50, 50, 50) border-box;
+    background: rgba(0, 0, 0, 0.5) border-box;
     text-align: center;
     width: 960px;
     height:65px;
@@ -73,10 +78,20 @@ a:hover
     margin: 10px;
 }
 
-#menu_box_1
+#menu_box_0
 {
     box-sizing: border-box;
     clear:both;
+    float:left;
+    width: 200px;
+    height:65px;
+    padding:10px;
+    text-align: center;
+}
+
+#menu_box_1
+{
+    box-sizing: border-box;
     float:left;
     width: 200px;
     height:65px;
@@ -107,9 +122,9 @@ a:hover
 #ranking_table
 {
     box-sizing: border-box;
-    background: rgb(200, 200, 200);
+    background: rgba(200, 200, 200, 0.3);
     width: 560px;
-    height:400px;
+    height:450px;
     padding: 20px; 
     clear:both;
     float: left;  
@@ -119,11 +134,12 @@ a:hover
 #information_table
 {
     box-sizing: border-box;
-    width: 350px;
+    width: 370px;
     height:400px;
     padding: 20epx;  
     float: right;  
     margin: 10px;  
+    background-color:  rgba(255,255,255,0.2);
 }
 
 #chating_box
