@@ -164,3 +164,9 @@ a:hover
 {
     text-align: left;
 }
+
+#sample
+{
+    width:600px;
+    height:100px;
+}
