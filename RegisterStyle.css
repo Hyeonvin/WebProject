@@ -1,6 +1,6 @@
 #contents
 {
-    font-family: "Font1";
+    font-family: '돋움';
     width: 950px;
     height: 620px;
     margin: 10px;
@@ -13,13 +13,14 @@
     float:left;
     margin-top: 20px;
     margin-left: 10px;
-    margin-bottom: 10px;
     padding:5px;
-    width: 370px;
+    width: 450px;
     height:50px;
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #R_nickname_div
@@ -32,6 +33,7 @@
     line-height: 40px;
     background: rgba(255,255,255, 1);
     border-radius: 6px;
+    margin-right: 24px;
 }
 
 #R_nickname_box
@@ -42,6 +44,8 @@
     border:none;
     width:177px;
     height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 #R_id
@@ -51,11 +55,12 @@
     float:left;
     margin-left: 10px;
     padding:5px;
-    width: 350px;
+    width: 450px;
     height:50px;
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #R_id_div
@@ -68,6 +73,7 @@
     line-height: 40px;
     background: rgba(255,255,255, 1);
     border-radius: 6px;
+    margin-right: 32px;
 }
 
 #R_id_box
@@ -87,11 +93,12 @@
     float:left;
     margin-left: 10px;
     padding:5px;
-    width: 400px;
+    width: 450px;
     height:50px;
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #R_password_div
@@ -128,6 +135,7 @@
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #R_password_div_c
@@ -154,7 +162,11 @@
 
 #R_nickname_button
 {
-        float:right;
+    float:right;
+    width:70px;
+    height:40px;
+    line-height: 40px;
+    vertical-align: middle;
 }
 
 #R_id_button
@@ -164,6 +176,15 @@
 
 #Register_div
 {
+    text-align: center;
     margin-left: 10px;
     clear:both;
+}
+
+#checkbox_div
+{
+    float:right;
+    width:70px;
+    height:40px;
+    margin: 5px;
 }

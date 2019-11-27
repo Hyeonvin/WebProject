@@ -6,7 +6,7 @@
 
 div 
 {
-   /* border: 1px solid white; */
+    /*border: 1px solid white;*/
 }
             
             
@@ -196,4 +196,6 @@ a:hover
     height:580px;
     background: rgba(255,255,255, 0.5);
     margin: 10px;
+    text-align: center;
+    border-radius: 20px;
 }
