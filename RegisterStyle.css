@@ -188,3 +188,77 @@
     height:40px;
     margin: 5px;
 }
+
+#L_id
+{
+    clear:both;
+    font-size: 25px;
+    float:left;
+    margin-left: 10px;
+    padding:5px;
+    width: 450px;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#L_id_div
+{
+    margin: 5px;
+    padding-left:3px;
+    float:right;
+    width:280px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255,255,255, 1);
+    border-radius: 6px;
+}
+
+#L_id_box
+{
+    font-family: 'Font1';
+    font-size:20px;
+    background-color: transparent;
+    border:none;
+    width:277px;
+    height: 30px;
+}
+
+#L_password
+{
+    clear:both;
+    font-size: 25px;
+    float:left;
+    margin-left: 10px;
+    padding:5px;
+    width: 450px;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#L_password_div
+{
+    margin: 5px;
+    padding-left:3px;
+    float:right;
+    width:280px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255,255,255, 1);
+    border-radius: 6px;
+}
+
+#L_password_box
+{
+    font-family: 'Font1';
+    font-size:20px;
+    background-color: transparent;
+    border:none;
+    width:277px;
+    height: 30px;
+}
