@@ -22,6 +22,12 @@ fieldset
     text-align: center;
 }
 
+ul
+{
+    list-style-type: decimal;
+    line-height: 50px;
+}
+
 a:link 
 {
     text-decoration: none;
@@ -70,6 +76,8 @@ a:hover
     padding:10px;
     margin: 10px;
     color:rgb(180, 180, 180);
+    font-family: 'Font1';
+    font-size: 25px;
 }
 
 #menu
@@ -93,6 +101,7 @@ a:hover
     height:65px;
     padding:10px;
     text-align: center;
+    margin-left: 50px;
 }
 
 #menu_box_1
@@ -164,6 +173,11 @@ a:hover
 .small_text
 {
     font-size: 12px;
+}
+
+.title_text
+{
+    font-size: 50px;
 }
 
 #login_window 
