@@ -33,7 +33,7 @@
     line-height: 40px;
     background: rgba(255,255,255, 1);
     border-radius: 6px;
-    margin-right: 24px;
+    margin-right: 105px;
 }
 
 #R_nickname_box
@@ -73,7 +73,7 @@
     line-height: 40px;
     background: rgba(255,255,255, 1);
     border-radius: 6px;
-    margin-right: 32px;
+    margin-right: 105px;
 }
 
 #R_id_box
@@ -123,70 +123,11 @@
     height: 30px;
 }
 
-#R_password_c
-{
-    clear:both;
-    font-size: 25px;
-    float:left;
-    margin-left: 10px;
-    padding:5px;
-    width: 450px;
-    height:50px;
-    line-height: 50px;
-    vertical-align: middle;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#R_password_div_c
-{
-    margin: 5px;
-    padding-left:3px;
-    float:right;
-    width:280px;
-    height: 40px;
-    line-height: 40px;
-    background: rgba(255,255,255, 1);
-    border-radius: 6px;
-}
-
-#R_password_box_c
-{
-    font-family: 'Font1';
-    font-size:20px;
-    background-color: transparent;
-    border:none;
-    width:277px;
-    height: 30px;
-}
-
-#R_nickname_button
-{
-    float:right;
-    width:70px;
-    height:40px;
-    line-height: 40px;
-    vertical-align: middle;
-}
-
-#R_id_button
-{
-    float:right;
-}
-
 #Register_div
 {
     text-align: center;
     margin-left: 10px;
     clear:both;
-}
-
-#checkbox_div
-{
-    float:right;
-    width:70px;
-    height:40px;
-    margin: 5px;
 }
 
 #L_id
