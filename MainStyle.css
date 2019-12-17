@@ -161,10 +161,10 @@ a:hover
     text-align: center;
 }
 
-#chating_box
+#chatting_box
 {
     box-sizing: border-box;
-    text-align: left;
+    text-align: center;
     width: 960px;
     height:600px;
     padding:10px;
@@ -210,7 +210,7 @@ a:hover
     padding:20px;
     float: left;
     width: 680px;
-    height:580px;
+    height:530px;
     background: rgba(255,255,255, 0.5);
     margin: 10px;
     text-align: center;
